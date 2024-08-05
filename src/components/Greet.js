@@ -10,6 +10,10 @@ import React from "react";
 //   )
 // }
 
-const Greet = () => <h1>Hello Aman</h1>;
+const Greet = () => (
+  <div>
+    <h1>Hello Aman</h1>
+  </div>
+);
 
 export default Greet;
