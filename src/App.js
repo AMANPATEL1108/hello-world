@@ -6,14 +6,26 @@ import Hello from "./components/Hello";
 import React, { Component } from "react";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
+import FunctionClick from "./components/FunctionClick";
+import Classclick from "./components/Classclick";
+import EventBind from "./components/EventBind";
+import ParentComponent from "./components/ParentComponent";
+import UserGreeting from "./components/UserGreeting";
+import NameList from "./components/NameList";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Counter />
+        <NameList />
+        {/* <UserGreeting /> */}
+        {/* <ParentComponent /> */}
+        {/* <EventBind /> */}
+        {/* <FunctionClick />
+        <Classclick /> */}
+        {/* <Counter />
         <Greet name="Jay" heroName="superman"></Greet>
-        <Welcome name="Jay" heroName="flash" />
+        <Welcome name="Jay" heroName="flash" /> */}
         {/* <Message /> */}
         {
           /* 
